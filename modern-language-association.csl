@@ -87,13 +87,13 @@
     </choose>
   </macro>
   <macro name="container-title">
-      <group delimiter=" ">
-        <group delimiter=", ">
-          <text variable="volume-title" font-style="italic" text-case="title"/>
-          <text term="special issue"/>
-        </group>
-        <text variable="container-title" font-style="italic" text-case="title"/>
+    <group delimiter=" ">
+      <group delimiter=", ">
+        <text variable="volume-title" font-style="italic" text-case="title"/>
+        <text term="special issue"/>
       </group>
+      <text variable="container-title" font-style="italic" text-case="title"/>
+    </group>
   </macro>
   <macro name="other-contributors">
     <choose>
